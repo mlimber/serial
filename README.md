@@ -17,14 +17,14 @@ API Documentation: http://wjwwood.github.com/serial/doc/1.1.0/index.html
 ### Dependencies
 
 Required:
-* [catkin](http://www.ros.org/wiki/catkin) - cmake and Python based buildsystem
 * [cmake](http://www.cmake.org) - buildsystem
-* [Python](http://www.python.org) - scripting language
-  * [empy](http://www.alcyone.com/pyos/empy/) - Python templating library
-  * [catkin_pkg](http://pypi.python.org/pypi/catkin_pkg/) - Runtime Python library for catkin
 
 Optional (for tests): 
 * [Boost](http://www.boost.org/) - Boost C++ librairies
+* [catkin](http://www.ros.org/wiki/catkin) - cmake and Python based buildsystem
+* [Python](http://www.python.org) - scripting language
+  * [empy](http://www.alcyone.com/pyos/empy/) - Python templating library
+  * [catkin_pkg](http://pypi.python.org/pypi/catkin_pkg/) - Runtime Python library for catkin
 
 Optional (for documentation):
 * [Doxygen](http://www.doxygen.org/) - Documentation generation tool
@@ -36,11 +36,11 @@ Get the code:
 
     git clone https://github.com/wjwwood/serial.git
 
-Build:
+Build just the library:
 
     make
 
-Build and run the tests:
+OR build the library and run the tests:
 
     make test
 

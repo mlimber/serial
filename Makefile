@@ -33,7 +33,7 @@ uninstall:
 
 serial:
 	@mkdir -p build
-	cd build && cmake $(CMAKE_FLAGS) ..
+	cd build && cmake $(CMAKE_FLAGS) -DBUILD_TESTS=OFF ..
 ifneq ($(MAKE),)
 	cd build && $(MAKE)
 else
